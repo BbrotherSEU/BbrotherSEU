@@ -63,11 +63,12 @@ so people stop hand-writing SQL and building pivot tables.
 
 | Project | What it is | Stack |
 | :-- | :-- | :-- |
+| **[sanguo-luanxing](https://github.com/BbrotherSEU/sanguo-luanxing)** | A Three Kingdoms narrative + combat single-player game in Unity. The player journeys from the peach garden oath to pacifying the realm at the Wei River: 9 explorable regions, 7 turn-based dungeon maps, an official-rank progression system, branching endings shaped by faction flags, and a day-night cycle. Built-in render pipeline, pure C# with no third-party dependencies, custom Toon and outline shaders | `Unity` `C#` `ShaderLab` `Built-in RP` |
 | **[sanguo-cards](https://github.com/BbrotherSEU/sanguo-cards)** | A fan-made Three Kingdoms card game for the web. Procedurally generated SVG general portraits, turn-by-turn battle playback, breakthrough / awakening, equipment upgrades and drops, and an arena. Landscape-only layout, installable to the home screen as a fullscreen PWA, with one save file shared between phone and desktop over LAN | `TypeScript` `Vite` `SVG` `Node` |
 | **[forest-shop](https://github.com/BbrotherSEU/forest-shop)** | A 3D stationery shop in the browser: Three.js store environment, fixed follow camera, virtual cash interaction and checkout flow; state managed with Zustand | `TypeScript` `React 19` `React Three Fiber` |
 | **[kid-shop-3d](https://github.com/BbrotherSEU/kid-shop-3d)** | A classroom-ready 3D shop, designed for younger students, focused on practising yuan / jiao conversion | `TypeScript` `Three.js` |
 
-> The first is a game; the last two are game-shaped teaching tools — see the next section.
+> The first two are games; the last two are game-shaped teaching tools — see the next section.
 
 ---
 
