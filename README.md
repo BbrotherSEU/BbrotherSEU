@@ -1,12 +1,14 @@
 <div align="center">
 
-# Fan.Bin
+# 范彬 · Fan.Bin
 
-**Backend Engineer @ Citi GFTS · Shanghai**
+**架构师 @ HSBC · 上海**
 
-Shipping AI into real products, and turning ideas into things you can actually open.
+大数据 · 高性能 · AI
 
-[`中文`](README.md) · `English`
+把复杂度收进架构，把想法做成能跑的东西。
+
+`中文` · [`English`](README_en.md)
 
 [![GitHub](https://img.shields.io/badge/GitHub-BbrotherSEU-181717?style=flat-square&logo=github)](https://github.com/BbrotherSEU)
 [![Since](https://img.shields.io/badge/since-2015-6e5494?style=flat-square)](#)
@@ -16,79 +18,81 @@ Shipping AI into real products, and turning ideas into things you can actually o
 
 ---
 
-## About
+## 关于我
 
-I'm Fan.Bin (范彬), dev lead at *HSBC**, working mostly with Spring Boot, distributed systems, and enterprise data migration.
+我是樊斌（Fan.Bin），目前在 **HSBC** 担任架构师。长期关注三个方向：**大数据** —— 海量数据的采集、建模与治理；**高性能** —— 把延迟和吞吐当成设计约束，而不是上线后再优化；**AI** —— 让大模型真正嵌进业务流程，而不是停在 Demo。
 
-Outside of work I run on two tracks: **putting AI into real scenarios** — not just calling an API, but orchestrating models into systems that deliver results; and **turning ideas into things you can click on** — from a 3D shop in the browser to classroom tools.
-
----
-
-## 🚧 In Progress
-
-### ⚽ AI Football
-
-> Understanding football through AI.
-
-Turning matches and training sessions into computable data: structured events, tactic recognition, and player / lineup performance evaluation.
-The goal is to move from *watching* a match to *reading* it — so the conclusions can directly inform training and selection.
-
-`Status: in progress` · write-ups and code coming out gradually
-
-### 📊 AI × Big Data
-
-> Putting an LLM directly on top of the data stack.
-
-Natural-language querying, metric anomaly attribution, and auto-generated analysis — handing the whole **fetch → analyze → report** chain to agents,
-so people stop hand-writing SQL and building pivot tables.
-
-`Status: in progress`
+工作之外有两条主线：**把 AI 用进真实场景**，以及**把想法做成能点开就看到效果的成品** —— 从浏览器里的 3D 小店，到能装进手机的卡牌游戏。
 
 ---
 
-## 01 · AI Projects & Ideas
+## 🚧 正在做
 
-| Project | What it is | Stack |
+### ⚽ AI 足球
+
+> 用 AI 理解足球。
+
+把比赛与训练过程变成可计算的数据：事件结构化、战术识别、球员与阵容表现评估。
+目标是把「看比赛」变成「读数据」，让分析结论能直接指导训练和选人。
+
+`状态：进行中` · 方案与代码陆续整理公开
+
+### 📊 AI 大数据
+
+> 让大模型长在数据栈上。
+
+自然语言查询、指标异常归因、自动生成分析结论 —— 把「取数 → 分析 → 出报告」这条链路交给 Agent，
+把人从写 SQL 和手工做表里解放出来。
+
+`状态：进行中`
+
+---
+
+## 01 · AI 项目与想法
+
+| 项目 | 说明 | 技术 |
 | :-- | :-- | :-- |
-| **[llm_ai_resume_jd_matching](https://github.com/BbrotherSEU/llm_ai_resume_jd_matching)** | A multi-agent HR screening system: an Orchestrator coordinates four sub-agents — JD analysis, resume parsing, match scoring, fraud detection — and outputs a human-readable verdict. PDF/TXT drag-and-drop, Web UI plus REST API | `Python` `LLM` `Multi-Agent` |
-| **[build-local-ai](https://github.com/BbrotherSEU/build-local-ai)** | A step-by-step guide to a local LLM stack: NVIDIA driver → CUDA → Ollama → model selection and VRAM estimation, with troubleshooting for common pitfalls | `Python` `Ollama` `CUDA` |
-| **[Ad-Service-System](https://github.com/BbrotherSEU/Ad-Service-System)** | An idea sketch for an ad system: a Node.js business layer handling requests and callbacks, with a machine-learning layer to improve experience and download rate. Research and thinking, not a complete system | `Node.js` `Machine Learning` |
-| **[mobikeCup](https://github.com/BbrotherSEU/mobikeCup)** | Entry and modelling notes from the 2017 Mobike Cup data competition (BIENdata) | `Python` `Data Modelling` |
+| **[llm_ai_resume_jd_matching](https://github.com/BbrotherSEU/llm_ai_resume_jd_matching)** | 多 Agent 的 HR 简历筛选：Orchestrator 编排 JD 分析、简历解析、匹配打分、欺诈检测四个子 Agent，输出人可读的评估结论。支持 PDF/TXT 拖拽，带 Web UI 与 REST API | `Python` `LLM` `Multi-Agent` |
+| **[build-local-ai](https://github.com/BbrotherSEU/build-local-ai)** | 本地大模型环境搭建的全流程手册：NVIDIA 驱动 → CUDA → Ollama → 模型选型与显存估算，附常见坑的排查 | `Python` `Ollama` `CUDA` |
+| **[Ad-Service-System](https://github.com/BbrotherSEU/Ad-Service-System)** | 广告系统的想法原型：Node.js 业务层负责请求与回调，机器学习层负责提升下载率与体验。只留研究与思路，不提供完整系统 | `Node.js` `Machine Learning` |
+| **[mobikeCup](https://github.com/BbrotherSEU/mobikeCup)** | 2017 年摩拜杯数据竞赛（BIENdata）的参赛记录与建模思路 | `Python` `数据建模` |
 
 ---
 
-## 02 · Games
+## 02 · 游戏项目
 
-| Project | What it is | Stack |
+| 项目 | 说明 | 技术 |
 | :-- | :-- | :-- |
-| **[forest-shop](https://github.com/BbrotherSEU/forest-shop)** | A 3D stationery shop in the browser: Three.js store environment, fixed follow camera, virtual cash interaction and checkout flow; state managed with Zustand, plus a separate teacher view | `TypeScript` `React 19` `React Three Fiber` `Zustand` |
+| **[sanguo-cards](https://github.com/BbrotherSEU/sanguo-cards)** | 粉丝向自制的三国卡牌 Web 游戏。程序化 SVG 武将立绘、回合回放战斗演出、突破 / 觉醒、装备强化与掉落、竞技场；横屏专属布局，可添加到手机主屏以全屏 PWA 运行，局域网内手机与电脑共用一份存档 | `TypeScript` `Vite` `Canvas/SVG` `Node` |
+| **[forest-shop](https://github.com/BbrotherSEU/forest-shop)** | 浏览器 3D 文具店。Three.js 建模的店铺场景、固定跟随相机、虚拟现金交互与结算流程；状态用 Zustand 管理 | `TypeScript` `React 19` `React Three Fiber` |
+| **[kid-shop-3d](https://github.com/BbrotherSEU/kid-shop-3d)** | 课堂版 3D 商店，界面为低年级学生设计，专注练习「元 / 角」换算 | `TypeScript` `Three.js` |
 
-> A game on the outside, a teaching tool on the inside — see the next section.
+> 前两个是「游戏」，后两个是「游戏化的教学工具」 —— 见下一节。
 
 ---
 
-## 03 · Education
+## 03 · 教学项目
 
-| Project | What it is | Stack |
+| 项目 | 说明 | 技术 |
 | :-- | :-- | :-- |
-| **[kid-shop-3d](https://github.com/BbrotherSEU/kid-shop-3d)** | A classroom-ready 3D shop, designed for younger students, focused on one thing: practising yuan / jiao conversion | `TypeScript` `Three.js` |
-| **[forest-shop](https://github.com/BbrotherSEU/forest-shop)** · teacher view | Every student transaction is recorded: what they bought, how many times they miscalculated, and at which step. Teachers review from that instead of judging mastery by a single worksheet | `TypeScript` `React` |
+| **[kid-shop-3d](https://github.com/BbrotherSEU/kid-shop-3d)** · 课堂场景 | 一节课就能跑起来，老师不用装软件，打开浏览器就能带着学生练元角换算 | `TypeScript` `Three.js` |
+| **[forest-shop](https://github.com/BbrotherSEU/forest-shop)** · 教师端 | 学生每笔交易都被记录：买了什么、算错几次、错在哪一步。老师据此复盘，而不是靠一张卷子判断掌握程度 | `TypeScript` `React` |
 
-**Design principle**: hide the knowledge inside the action. The kid isn't doing a worksheet — they're buying something for real, and if they get the math wrong, they can't pay.
+**设计思路**：知识点要藏在操作里。孩子不是在做练习题，是在真的买一次东西 —— 算错了就付不出钱。
 
 ---
 
-## 04 · Java & High-Performance
+## 04 · 大数据 / Java / 高性能
 
-| Project | What it is | Stack |
+| 项目 | 说明 | 技术 |
 | :-- | :-- | :-- |
-| **[mySpringBootRedis](https://github.com/BbrotherSEU/mySpringBootRedis)** | A working Spring Boot + Redis integration: cache configuration, serialization strategy, Swagger UI — a backend scaffold for new team members | `Java` `Spring Boot` `Redis` |
-| **[Tailer](https://github.com/BbrotherSEU/Tailer)** | A general-purpose file reader. Rewrote the tailer class to fix duplicate reads caused by file rotation and renaming | `Java` |
-| **[KnowledgeEveryDay](https://github.com/BbrotherSEU/KnowledgeEveryDay)** | Ongoing Java learnings and verification code | `Java` |
+| **[mySpringBootRedis](https://github.com/BbrotherSEU/mySpringBootRedis)** | Spring Boot 与 Redis 集成的实践工程：缓存配置、序列化方案、Swagger UI，作为团队新人的后端脚手架参考 | `Java` `Spring Boot` `Redis` |
+| **[Tailer](https://github.com/BbrotherSEU/Tailer)** | 通用文件读取程序。重写了 tailer 类，解决文件轮转 / 重命名后导致的重复读取问题 | `Java` |
+| **[KnowledgeEveryDay](https://github.com/BbrotherSEU/KnowledgeEveryDay)** | Java 方向的日常技术积累与验证代码 | `Java` |
 
 ---
 
-## 🧰 Stack
+## 🧰 技术栈
 
 <div align="center">
 
@@ -118,13 +122,13 @@ so people stop hand-writing SQL and building pivot tables.
 
 ---
 
-## 📮 Contact
+## 📮 联系
 
 <div align="center">
 
-GitHub is the fastest way to reach me → **[@BbrotherSEU](https://github.com/BbrotherSEU)**
+GitHub 是最快的联系方式 → **[@BbrotherSEU](https://github.com/BbrotherSEU)**
 
-Star ⭐ a repo if it helped, open an Issue if you have an idea — especially about AI football or AI × data.
+项目有用就 Star ⭐，有想法就开 Issue —— AI 足球、AI 大数据和卡牌游戏这三个方向尤其欢迎聊。
 
 </div>
 
