@@ -20,7 +20,7 @@
 
 ## 关于我
 
-我是樊斌（Fan.Bin），目前在 **HSBC** 担任架构师。长期关注三个方向：**大数据** —— 海量数据的采集、建模与治理；**高性能** —— 把延迟和吞吐当成设计约束，而不是上线后再优化；**AI** —— 让大模型真正嵌进业务流程，而不是停在 Demo。
+我是范彬（Fan.Bin），目前在 **HSBC** 担任架构师。长期关注三个方向：**大数据** —— 海量数据的采集、建模与治理；**高性能** —— 把延迟和吞吐当成设计约束，而不是上线后再优化；**AI** —— 让大模型真正嵌进业务流程，而不是停在 Demo。
 
 工作之外有两条主线：**把 AI 用进真实场景**，以及**把想法做成能点开就看到效果的成品** —— 从浏览器里的 3D 小店，到能装进手机的卡牌游戏。
 
@@ -63,6 +63,7 @@
 
 | 项目 | 说明 | 技术 |
 | :-- | :-- | :-- |
+| **[sanguo-luanxing](https://github.com/BbrotherSEU/sanguo-luanxing)** | 三国背景的单机叙事 + 战斗 Unity 游戏。玩家从桃林结义一路走到渭水定天下：9 个可探索区域、7 张回合制副本关卡、仕途官阶成长、旗号选择的多分支结局、昼夜流转。内置渲染管线，纯 C# 无第三方依赖，自定义 Toon / 描边 Shader | `Unity` `C#` `ShaderLab` `Built-in RP` |
 | **[sanguo-cards](https://github.com/BbrotherSEU/sanguo-cards)** | 粉丝向自制的三国卡牌 Web 游戏。程序化 SVG 武将立绘、回合回放战斗演出、突破 / 觉醒、装备强化与掉落、竞技场；横屏专属布局，可添加到手机主屏以全屏 PWA 运行，局域网内手机与电脑共用一份存档 | `TypeScript` `Vite` `Canvas/SVG` `Node` |
 | **[forest-shop](https://github.com/BbrotherSEU/forest-shop)** | 浏览器 3D 文具店。Three.js 建模的店铺场景、固定跟随相机、虚拟现金交互与结算流程；状态用 Zustand 管理 | `TypeScript` `React 19` `React Three Fiber` |
 | **[kid-shop-3d](https://github.com/BbrotherSEU/kid-shop-3d)** | 课堂版 3D 商店，界面为低年级学生设计，专注练习「元 / 角」换算 | `TypeScript` `Three.js` |
